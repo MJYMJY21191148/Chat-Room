@@ -1,4 +1,4 @@
-const io = require('socket.io')(3000)
+const io = require('socket.io')("https://mjymjy21191148.github.io/Chat-Room/")
 
 const users = {}
 
